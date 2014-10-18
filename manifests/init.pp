@@ -1,3 +1,8 @@
+# Public: Install TextExpander into /Applications.
+#
+# Examples
+#
+#   include textexpander
 class textexpander {
   package { 'textexpander':
     ensure     => 'installed',
