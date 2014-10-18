@@ -4,7 +4,7 @@
 #
 #   include textexpander
 class textexpander (
-  version = '4.3.4'
+  $version = '4.3.4',
 ){
   package { 'textexpander':
     ensure     => 'installed',
